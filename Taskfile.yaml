@@ -1,0 +1,21 @@
+version: "3"
+
+tasks:
+  test:
+    cmds:
+      - cargo test
+  build:
+    cmds:
+      - cargo build
+  run:
+    cmds:
+      - cargo run
+  fmt:
+    cmds:
+      - cargo +nightly fmt
+  lint:
+    cmds:
+      - cargo clippy
+  ngrok:
+    cmds:
+      - ngrok http 8080
