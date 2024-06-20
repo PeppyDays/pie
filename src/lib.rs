@@ -1,5 +1,5 @@
-mod api;
+pub mod api;
 mod configuration;
 mod container;
-mod runner;
+pub mod runner;
 mod service;
